@@ -1,0 +1,50 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina padding por defecto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilo del encabezado */
+header {
+    background: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 1rem 0; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+header h1 {
+    margin: 0; /* Elimina márgenes del título */
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina padding */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 10px; /* Espaciado entre enlaces */
+}
+
+nav ul li a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 2rem; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo del pie de página */
+footer {
+    background: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 1rem 0; /* Espaciado interno */
+    margin-top: 2rem; /* Espaciado superior */
+}
