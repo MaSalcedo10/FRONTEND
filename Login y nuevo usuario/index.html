@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login/Signup Form</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Configuración básica de la página -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+    <title>Login/Signup Form</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="style.css"> <!-- Vincula el archivo CSS externo -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Iconos de Boxicons -->
 </head>
 <body>
+    <!-- Contenedor principal -->
     <div class="container">
+
+        <!-- Caja del formulario de inicio de sesión -->
         <div class="form-box login">
-            <form action="#">
-                <h1>Login</h1>
+            <form action="#"> <!-- Formulario de inicio de sesión -->
+                <h1>Login</h1> <!-- Título del formulario -->
+                <!-- Campo para el nombre de usuario -->
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required>
-                    <i class='bx bxs-user'></i>
+                    <input type="text" placeholder="Username" required> <!-- Entrada de texto -->
+                    <i class='bx bxs-user'></i> <!-- Icono de usuario -->
                 </div>
+                <!-- Campo para la contraseña -->
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required>
-                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" placeholder="Password" required> <!-- Entrada de contraseña -->
+                    <i class='bx bxs-lock-alt'></i> <!-- Icono de candado -->
                 </div>
+                <!-- Enlace para recuperar la contraseña -->
                 <div class="forgot-link">
                     <a href="#">Forgot Password?</a>
                 </div>
+                <!-- Botón para enviar el formulario -->
                 <button type="submit" class="btn">Login</button>
-                <p>or login with social platforms</p>
+                <p>or login with social platforms</p> <!-- Texto adicional -->
+                <!-- Iconos de redes sociales -->
                 <div class="social-icons">
-                    <a href="#"><i class='bx bxl-google' ></i></a>
-                    <a href="#"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
                 </div>
             </form>
         </div>
 
+        <!-- Caja del formulario de registro -->
         <div class="form-box register">
-            <form action="#">
-                <h1>Registration</h1>
+            <form action="#"> <!-- Formulario de registro -->
+                <h1>Registration</h1> <!-- Título del formulario -->
+                <!-- Campo para el nombre de usuario -->
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required>
-                    <i class='bx bxs-user'></i>
+                    <input type="text" placeholder="Username" required> <!-- Entrada de texto -->
+                    <i class='bx bxs-user'></i> <!-- Icono de usuario -->
                 </div>
+                <!-- Campo para el correo electrónico -->
                 <div class="input-box">
-                    <input type="email" placeholder="Email" required>
-                    <i class='bx bxs-envelope' ></i>
+                    <input type="email" placeholder="Email" required> <!-- Entrada de correo -->
+                    <i class='bx bxs-envelope'></i> <!-- Icono de sobre -->
                 </div>
+                <!-- Campo para la contraseña -->
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required>
-                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" placeholder="Password" required> <!-- Entrada de contraseña -->
+                    <i class='bx bxs-lock-alt'></i> <!-- Icono de candado -->
                 </div>
+                <!-- Botón para enviar el formulario -->
                 <button type="submit" class="btn">Register</button>
-                <p>or register with social platforms</p>
+                <p>or register with social platforms</p> <!-- Texto adicional -->
+                <!-- Iconos de redes sociales -->
                 <div class="social-icons">
-                    <a href="#"><i class='bx bxl-google' ></i></a>
-                    <a href="#"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
                 </div>
             </form>
         </div>
 
+        <!-- Caja de alternancia entre login y registro -->
         <div class="toggle-box">
+            <!-- Panel izquierdo para registro -->
             <div class="toggle-panel toggle-left">
-                <h1>Hello, Welcome!</h1>
-                <p>Don't have an account?</p>
-                <button class="btn register-btn">Register</button>
+                <h1>Hello, Welcome!</h1> <!-- Mensaje de bienvenida -->
+                <p>Don't have an account?</p> <!-- Pregunta para usuarios sin cuenta -->
+                <button class="btn register-btn">Register</button> <!-- Botón para cambiar al formulario de registro -->
             </div>
 
+            <!-- Panel derecho para login -->
             <div class="toggle-panel toggle-right">
-                <h1>Welcome Back!</h1>
-                <p>Already have an account?</p>
-                <button class="btn login-btn">Login</button>
+                <h1>Welcome Back!</h1> <!-- Mensaje de bienvenida -->
+                <p>Already have an account?</p> <!-- Pregunta para usuarios con cuenta -->
+                <button class="btn login-btn">Login</button> <!-- Botón para cambiar al formulario de login -->
             </div>
         </div>
     </div>
 
+    <!-- Vincula el archivo JavaScript externo -->
     <script src="main.js"></script>
 </body>
 </html>
