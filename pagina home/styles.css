@@ -65,7 +65,7 @@ body, html {
 
 /* Hero */
 .hero {
-  background: url('hero.jpg') center/cover no-repeat;
+  background: url('images/head.jpg') center/cover no-repeat;
   color: white;
   padding: 100px 30px;
   text-align: left;
@@ -101,7 +101,10 @@ body, html {
 /* About */
 .about {
   padding: 60px 30px;
-  background: #eee;
+  background-image: url('images/about-man.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
   text-align: center;
 }
 
